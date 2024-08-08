@@ -18,6 +18,81 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+    <header>
+        <div class="image">
+            <picture>
+                <source srcset="img/work-at-home.webp" media="(min-width: 1000px)">
+                <img src="img/work-at-home-with-pets.webp" alt="home with pets main">
+            </picture>
+        </div>
+        <div class="title">
+            <img src="img/logo.svg" alt="logo"><p>remote.ly</p>
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <div class="start">
+            <h1>Make every day 'bring your pet to work' day.</h1>
+            <p>Our award-winning platform lets you take your work on the go, wherever life may lead you. Sign up now to securely connect to clients, no matter where you are.</p>  
+        </div>
+        <div class="yellow">
+            <p>Try it free for 7 days, with plans starting at $25/month.</p>
+        </div>
+        <main>
+            <div class="login">
+                <form action="" method="POST">
+                    <h2>Your Account</h2>
+                    <div class="account">
+                        <div class="account-child">
+                            <label for="username" class="username">Username</label>
+                            <input type="text" id="username" name="username">
+                        </div>
+                        <div class="account-child">
+                            <label for="login-email">Email Address</label>
+                            <input type="email" id="login-email" name="login-email">
+                        </div>
+                        <div class="password-content">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" name="login-password">
+                            <p>Your password must contain at least one uppercase letter, one lowercase letter, and one number.</p>
+                        </div>
+                        <div class="account-child">
+                            <label for="valid-password">Password (Again!)</label>
+                            <input type="password" id="valid-password" name="valid-password">
+                        </div>
+                    </div>
+                        <h2>All About You</h2>
+                        <div class="account">
+                            <div class="account-child">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
+                            <div class="account-child">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                            <div class="account-child">
+                                <label for="birthday">Date of Birth</label>
+                                <input type="date" id="birthday" name="birthday">
+                            </div>
+                            <div class="account-child">
+                                <label for="business-type">Business Type</label>
+                                <select name="business-type" id="business-type" form="business-form">
+                                    <option value="sole-proprietorship">Sole Proprietorship</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="limited-liability-company">Limited Liability Company</option>
+                                    <option value="corporation">Corporation</option>
+                                </select>
+                            </div>
+                        </div>
+                            <div>
+                                <button>Claim Your Free Trial ></button>
+                            </div>
+                    <div class="end">
+                        <p>By signing up, you agree to our <span class="underline">Terms of Service</span> and <span class="underline">Privacy Policy</span></p>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
